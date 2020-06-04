@@ -1,13 +1,14 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { withPrefix } from 'gatsby';
+
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+
+import useSiteMetadata from './SiteMetadata';
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -52,7 +53,7 @@ const TemplateWrapper = ({ children }) => {
       <div>{children}</div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
