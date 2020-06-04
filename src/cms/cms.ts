@@ -14,3 +14,5 @@ CMS.registerPreviewTemplate('index', IndexPagePreview);
 CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('products', ProductPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
+
+// https://github.com/netlify-templates/gatsby-starter-netlify-cms/pull/207/files#diff-ccb01e95b51c90bdc76c989a9e426c05
